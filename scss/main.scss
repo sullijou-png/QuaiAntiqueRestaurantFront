@@ -45,3 +45,16 @@ main {
     }
 
 }
+.text-justify{
+    text-align: justify;
+}
+.image-paysage {
+  /* Définit un ratio d'aspect paysage (16:9 est classique) */
+  aspect-ratio: 16 / 9; 
+  
+  /* REMPLIT le cadre sans déformer (recadre) */
+  object-fit: cover; 
+  
+  /* Optionnel : centre le "cœur" de la photo, le steak */
+  object-position: center; 
+}

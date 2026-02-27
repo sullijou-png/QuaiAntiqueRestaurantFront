@@ -12022,4 +12022,8 @@ main {
   align-items: center;
   justify-content: center;
   margin-top: 0px;
+}
+
+.text-justify {
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */
