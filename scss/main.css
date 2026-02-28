@@ -11986,7 +11986,7 @@ html {
 }
 
 main {
-  margin-bottom: 250px; /* Hauteur du footer */
+  margin-bottom: 300px; /* Hauteur du footer */
 }
 
 .footer.footer {
@@ -11998,6 +11998,7 @@ main {
 
 .hero-scene {
   position: relative;
+  margin-bottom: 15px;
 }
 .hero-scene::before {
   content: "";
@@ -12058,4 +12059,8 @@ main {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s ease;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */

@@ -6,7 +6,8 @@ html{
   min-height: 100%;
 }
 main{ 
-  margin-bottom: 250px; /* Hauteur du footer */
+  margin-bottom: 300px; /* Hauteur du footer */
+  
 }
 .footer.footer {
   padding: 15px;
@@ -18,6 +19,7 @@ main{
 .hero-scene{
 
    position :relative;
+   margin-bottom: 15px;
    &::before {
     content: "";
     position: absolute;
@@ -82,4 +84,8 @@ main{
       transition: all 0.3s ease;
 
   }
+}
+
+.form-label{
+     color: $primary;
 }
