@@ -6,7 +6,7 @@ html{
   min-height: 100%;
 }
 main{ 
-  margin-bottom: 280px; /* Hauteur du footer */
+  margin-bottom: 250px; /* Hauteur du footer */
   
 }
 .footer.footer {
@@ -64,11 +64,13 @@ main{
 .image-card {
   position:relative;
   &:hover{
-      .titre-image {
+      .titre-image, .action-image-button {
           opacity: 1;
       }
       img {
           filter: brightness(0.3);
+      }
+      
       }
   }
   img{
@@ -82,10 +84,20 @@ main{
       transform: translate(-50%, -50%);
       opacity: 0;
       transition: all 0.3s ease;
-
   }
-}
+  .action-image-button {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      opacity: 0;
+      transition: all 0.3s ease;
+  }
 
-.form-label{
+
+  .form-label{
      color: $primary;
 }
